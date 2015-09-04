@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tower Of Hanoi</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/hanoi.css">
+  </head>
+  <body>
+    <script src="../js/jquery-2.1.1.js"></script>
+    <!-- Whackjobs at GithubPages don't understand symlinks... -->
+    <script src="../../hanoi-core.js"></script>
+    <script src="../js/hanoi-view.js"></script>
+
+    <h1>Hanoi</h1>
+
+    <figure id="hanoi-game" class="hanoi-game">
+
+    </figure>
+
+    <script>
+      // Write your code here.
+      (function(){
+        var $el = $("#hanoi-game");
+        var hanoiView = new Hanoi.View(new Hanoi.Game(), $el);
+      })();
+    </script>
+  </body>
+</html>
