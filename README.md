@@ -1,6 +1,11 @@
-<h1>jQuery Tower Of Hanoi</h1>
-A playable browser Hanoi game based on the core game code provided by App Academy.
+## jQuery Tower Of Hanoi
+A classic browser Hanoi game
 
-Paired with Aiven Song.
+[Play Now][live]
+[live]: https://chiaowenlin075.github.io/jQuery-Tower-Of-Hanoi
 
-Download the file and open the 'index.html' file in skeleton/html directory!
+### Languages:
+- Javascript
+- jQuery
+- CSS
+- HTML
